@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Alura Challenge - Desafio 1 - lógica</title>
+    
+</head>
+<body>
+
+    <header>
+        <h1>a</h1>
+    </header>
+
+    <main>
+        <section class="form-box">
+            <form class="form" onsubmit="return false">
+                <label for="name" class="etiqueta">Apenas letras minúsculas, sem acento</label>
+                <input type="text" id="name" placeholder="insira seu texto aqui">
+                <input type="submit" value="Criptografar" id="botonCrip" for="name" class="botones">
+                <input type="submit" value="Descriptografar" id="botonDescrip" for="name" class="botones">
+            </form>
+        </section>
+
+        <div class="cuadro-mensagem">
+            <h2 id="titulo-mensagem" >Mensagem Criptografada</h2>
+            <br>
+            <div id="mensagem-ocultar">
+                <h3>Nenhuma mensagem encontrada</h3>
+                <p>Digite um texto que voce deseja Criptografar ou Descriptografar</p>
+                <img src="lupa.png" alt="lupa imagen">
+            </div>
+            <br>
+            <p class="text-input" id="msg"></p>
+            <br>
+            <button id="boton-copiar" onclick="copyToClipboard()">Copiar</button>
+
+        </div>
+    </main>
+    
+
+    <script src="app.js"></script>
+    
+</body>
+</html>

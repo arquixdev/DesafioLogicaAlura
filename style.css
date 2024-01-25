@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #e5e5e5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header h1 {
+    color: darkblue;
+    font-size: 100px;
+    width: 120px;
+    height: 48px;
+    position: absolute;
+    left: 5%;
+    right: 36.67%;
+    top: 0%;
+    bottom: 0%;
+}
+
+main {
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.form-box {
+    position: absolute;
+    width: 680px;
+    height: 48px;
+    left: 240px;
+    top: 168px;
+    border-radius: 32px;
+}
+
+.botones {
+    border-radius: 32px;
+    background: #ffffff;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 32px;
+    width: 300px;
+    height: 48px;
+    font-size: 24px;
+    color: #000000;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 300px;
+
+}
+
+.cuadro-mensagem {
+    background: #ffffff;
+    position: absolute;
+    width: 400px;
+    height: 700px;
+    left: 1000px;
+    top: 100px;
+    border-radius: 32px;
+    text-align: center;
+}
+
+.etiqueta {
+    position: relative;
+    text-align: center;
+    margin-left: 60px;
+}
+
+#name {
+    padding-top: 10px;
+    position: relative;
+    width: 500px;
+    height: 80px;
+    margin-top: 20px;
+    border-radius: 20px;
+    text-align: center;
+    text-size-adjust: 100%;
+    margin-left: 60px;
+}
+
+button {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 50px;
+    top: 500px;
+    border-radius: 32px;
+    background: #ffffff;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 32px;
+    width: 300px;
+    height: 48px;
+    font-size: 24px;
+    color: #000000;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+img {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 50px;
+    top: 100px;
+    border-radius: 32px;
+}
